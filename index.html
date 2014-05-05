@@ -27,11 +27,64 @@
 	<script type="text/javascript" src="lib/plugins/lawnchair-0.6.1.js"></script>
 	<script type="text/javascript" src="lib/game/system/underscore.js"></script>
 </head>
-<body>	
+<body>
 	<canvas id="canvas"></canvas>
-    <div>
+    <div id="instruction">
+        <strong>Basic Controls:</strong>
+        <table class="controlTable">
+            <tbody>
+                <tr>
+                    <td>W/A/S/D</td>
+                    <td>Move (double tap to run)</td>
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <td>Attack</td>
+                </tr>
+                <tr>
+                    <td>K</td>
+                    <td>Block</td>
+                </tr>
+                <tr>
+                    <td>ESC</td>
+                    <td>Pause</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Open Stats/Equipment</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Open Inventory</td>
+                </tr>
+                <tr>
+                    <td>X</td>
+                    <td>Open Skill</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <strong>Combos:</strong>
+        <table class="comboTable">
+            <tbody>
+                <tr>
+                    <td>S -> A/D -> J</td>
+                    <td>Shuriken</td>
+                </tr>
+                <tr>
+                    <td>K -> S -> J</td>
+                    <td>Poison Blade</td>
+                </tr>
+                <tr>
+                    <td>S -> S -> J</td>
+                    <td>Shadow Clone</td>
+                </tr>
+            </tbody>
+        </table>
+    </div><br /><br /><br />
+    <div id="changeLog">
         <p>
-            <b>Change log (05/02/2014)</b><br /><br />
+            <strong>Change log (05/02/2014)</strong><br /><br />
             - Improved camera mechanism.
         </p>
     </div>
